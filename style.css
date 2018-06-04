@@ -1,0 +1,249 @@
+/* global */
+
+body {
+  background-color:#F3F3F3;
+  font-family:sans-serif;
+  color:#B3B3B3;
+}
+
+/*
+#container {
+  text-align: center;
+  margin:auto 0;
+}
+*/
+
+ul {
+  list-style: none;
+}
+
+
+/* header */
+
+header  {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  border-bottom:1px solid #E4E4E4;
+
+}
+
+header img {
+  padding-left:1em;
+  padding-right:1em;
+  padding-bottom:1em;
+}
+
+form {
+  box-shadow: 0px 0px 23px 3px #DDD;
+  font-size:0;
+}
+
+input[type="text"] {
+  padding-left:1em;
+  border:#fff;
+  height:3em;
+  width:20em;
+}
+
+input[type="submit"] {
+  background-color:#94E643;
+  background-image:url('magglass.png');
+  background-repeat:no-repeat;
+  background-position:center;
+  border:none;
+  height:3em;
+  width:3em;
+}
+
+
+/* item display */
+
+h1 {
+  color:#656565;
+  text-transform: uppercase;
+  width:100%;
+  text-align:center;
+}
+
+.itemdisplay img {
+  padding-left: 2em;
+}
+
+section.info ul{
+  display:flex;
+
+}
+
+section.info ul li{
+  padding: 0 1em;
+
+}
+
+@media only screen and (min-width:800px) {
+  .itemdisplay {
+    text-align:center;
+  }
+}
+
+.center {
+  text-align:center;
+  padding-top:1em;
+}
+
+
+.preview {
+  position:relative;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow1  {
+  position:relative;
+  top:0px;
+  left:15px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.arrow2  {
+  position:relative;
+  top:0px;
+  right:15px;
+}
+
+div.preview img {
+  margin-top:30px;
+/*  box-shadow:5px 5px 10px grey; */
+}
+
+div.preview ul {
+  width:100%;
+  text-align:center;
+}
+
+div.preview ul li {
+  display:inline-block;
+}
+
+/* seller */
+
+.seller {
+  clear:left;
+  padding-top:30px;
+}
+
+
+h2 {
+  color:#898989;
+  text-align:left;
+}
+
+
+.approval {
+  margin-left:0;
+  height:9px;
+  width:190px;
+  background-color:#94E643;
+  display:inline-block;
+}
+
+.disapproval {
+  text-align:left;
+  height:9px;
+  width:7px;
+  background-color:#ff0000;
+  display:inline-block;
+  margin-right:1.5em;
+}
+
+.follow {
+  color:#91E63F;
+}
+
+.newtag {
+  color:#888888;
+  font-size:18pt;
+  padding-left:2em;
+}
+
+.more > img {
+  padding-left:2em;
+}
+
+.seller img {
+  float:left;
+  padding:1em;
+}
+
+.action {
+  padding-bottom:2em;
+  padding-top:1em;
+}
+
+div.action ul{
+  display:flex;
+}
+
+div.action li{
+  padding:0.5em;
+}
+
+.dot {
+ height: 30px;
+ width: 30px;
+ border-radius: 50%;
+ display: inline-block;
+ margin-left:1em;
+}
+
+.dotcontainer {
+  position:relative;
+  padding-bottom:1em;
+}
+
+.dot1 {
+  background-color:#fff;
+  border:1px solid #CCC;
+  box-shadow: 0px 0px 23px 6px #DDD;
+}
+
+.dot2 {
+  background-color:#565656;
+}
+
+.dot3 {
+  background-color:#5972C7;
+}
+
+.dot4 {
+  background-color:#C93C72;
+}
+
+.dot5 {
+  background-color:#E4B265;
+}
+
+.dot6 {
+  background-color:#40C6C0;
+}
+
+.color {
+  padding-top:1em;
+  padding-left:2em;
+}
+
+
+.selectdot {
+  position:relative;
+  bottom:-10px;
+  left:39px;
+ height: 5px;
+ width: 5px;
+ border-radius: 50%;
+ display: inline-block;
+ background-color:#0000FF;
+}
