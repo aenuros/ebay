@@ -21,6 +21,7 @@ ul {
 /* header */
 
 header  {
+  /*nice use of display flex */
   display:flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +47,7 @@ input[type="text"] {
   height:3em;
   width:15em;
 }
-
+/* Nice use an attribute selector, keep in mind should this be a larger site this style would apply to all submit inputs*/
 input[type="submit"] {
   background-color:#94E643;
   background-image:url('magglass.png');
